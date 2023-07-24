@@ -4,8 +4,8 @@ const express = require('express');
 // app use express
 const app = express();
 
-// creating environment variable port
-const PORT = process.env.PORT || 3001;
+// creating environment variable port for  other site heroku
+const PORT = process.env.PORT || 5000;
 
 
 // asks express to create a route for every file in the 'public' folder and give it a '/' route
